@@ -18,9 +18,9 @@
 )
 
 (defun test()
-	(compare (fac 5) 120)
 	(compare (fac 0) 1)
 	(compare (fac 1) 1)
+	(compare (fac 5) 120)
 	(compare (fac 6) 720)
 )
 
